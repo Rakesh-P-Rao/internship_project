@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <title>Admission form</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Venkatadri PU College Chintamani</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/admissionForm.html">Admissions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                More
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li>
+                  <a class="dropdown-item" href="/courseOfferred.html"
+                    >Course Offered</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/contactUs.html">Contact Us</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/gallery.html">Gallery</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/achievements.html">Achievements</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div>
+      <h1 class="text-center">Venkatadri PU College Chintamani</h1>
+      <h2 class="text-center">Admission Application Form</h2>
+      <div
+        class="container border border-2 border-dark"
+        style="margin-bottom: 30px"
+      >
+        <div class="row">
+          <div class="col-9">
+            <h6 class="my-2">For Office use only</h6>
+            <div class="row row-cols-2">
+              <div class="col"><p class="fw-bold">1. Admission No</p></div>
+              <div class="col"><input type="text" /></div>
+              <div class="col"><p class="fw-bold">2. SATS NO.:</p></div>
+              <div class="col"><input type="text" /></div>
+              <div class="col">
+                <p class="fw-bold">3. Languages –cum- combination:</p>
+              </div>
+              <div class="col"><input type="text" /></div>
+              <div class="col"><p class="fw-bold">4. Medium:</p></div>
+              <div class="col"><input type="text" /></div>
+              <div class="col"><p class="fw-bold">5. Section:</p></div>
+              <div class="col"><input type="text" /></div>
+              <div class="col">
+                <p class="fw-bold">6. Reservation category:</p>
+              </div>
+              <div class="col"><input type="text" /></div>
+            </div>
+          </div>
+          <div class="col-3">
+            <img
+              src=""
+              alt="Affix recent pass port size photograph"
+              class="border border-dark text-center"
+              style="max-height: 250px; padding-bottom: 250px; margin-top: 30px"
+            />
+          </div>
+        </div>
+        <hr class="border border-1 border-dark" />
+        <div class="row" style="margin-bottom: 30px">
+          <div class="col-7 fw-bold">
+            <p>
+              1. Name of the Student in English as entered in SSLC marks card
+              (CAPITAL LETTERS ONLY)
+            </p>
+          </div>
+          <div class="col-5">
+            <input type="text" style="padding-right: 200px" />
+          </div>
+        </div>
+        <hr class="border border-1 border-dark" />
+        <div class="row fw-bold" style="margin-bottom: 30px">
+          <div class="col"><p>2. &nbsp; a) DATE OF BIRTH</p></div>
+          <div class="col">DAY: <input type="text" /></div>
+          <div class="col">MONTH: <input type="text" /></div>
+          <div class="col">YEAR: <input type="text" /></div>
+        </div>
+        <div class="row fw-bold" style="margin-bottom: 30px">
+          <div class="col">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Gender: <input type="text" />
+          </div>
+        </div>
+        <div class="row fw-bold">
+          <div class="col">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Place of birth
+          </div>
+          <div class="col">State: <input type="text" /></div>
+          <div class="col">District: <input type="text" /></div>
+          <div class="col">Taluk: <input type="text" /></div>
+        </div>
+        <hr class="border border-1 border-dark" />
+        <div class="row fw-bold">
+          <div class="row fw-bold my-2">
+            <div class="col"><p>3. &nbsp; a) Nationality</p></div>
+            <div class="col">Religion: <input type="text" /></div>
+            <div class="col">Caste: <input type="text" /></div>
+            <div class="col">Subcaste: <input type="text" /></div>
+          </div>
+        </div>
+        <hr class="border border-1 border-dark" />
+        <div class="row fw-bold">
+          <div class="col">4. Student Address</div>
+        </div>
+        <div class="row fw-bold">
+          <div class="col">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Permanent Address: &nbsp;
+            <input
+              type="text"
+              style="padding-right: 200px; padding-bottom: 100px"
+            />
+          </div>
+          <div class="col">
+            Local Address: &nbsp;
+            <input
+              type="text"
+              style="padding-right: 200px; padding-bottom: 100px"
+            />
+          </div>
+        </div>
+        <hr class="border border-1 border-dark" />
+        <div class="row fw-bold">
+          <div class="col">
+            <p>
+              5. &nbsp; a) Mobile No: <input type="text" class="my-1" /><br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Aadhar No:
+              <input type="text" class="my-1" /><br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) E-mail Id:
+              <input type="text" class="my-1" />
+            </p>
+          </div>
+        </div>
+        <hr class="border border-1 border-dark" />
+        <div class="row fw-bold">
+          <div class="col">
+            <p>
+              6. &nbsp; a) Name of the Father:
+              <input type="text" class="my-1" /><br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Name of the Mother:
+              <input type="text" class="my-1" />
+            </p>
+          </div>
+        </div>
+        <hr class="border border-1 border-dark" />
+        <div class="row fw-bold">
+          <div class="col">
+            <p>
+              7. &nbsp; Name/Address of the Parents/Guardian:
+              <input
+                type="text"
+                style="padding-right: 200px; padding-bottom: 50px"
+              />
+            </p>
+          </div>
+        </div>
+        <hr class="border border-1 border-dark" />
+        <div class="row fw-bold">
+          <div class="col">
+            <p>
+              8. &nbsp; Parent’s /Guardian Annual Income:
+              <input type="text" /> Is Income Certificate enclosed? Yes/ No
+              <input type="text" />
+            </p>
+          </div>
+        </div>
+        <hr class="border border-1 border-dark" />
+        <div class="row fw-bold">
+          <div class="col">
+            <p>
+              9. &nbsp; Name and address of the School /College last studied:
+              <input type="text" />
+            </p>
+          </div>
+        </div>
+        <hr class="border border-1 border-dark" />
+        <div class="row fw-bold">
+          <div class="col">
+            <p>
+              10. &nbsp; Particulars of SSLC /equivalent examination passed.
+            </p>
+          </div>
+          <div class="col">
+            <p>
+              SATS NO.: <input type="text" class="my-1" /><br />Reg No:
+              <input type="text" class="my-1" /> <br />
+              Month: <input type="text" class="my-1" /> Year:
+              <input type="text" class="my-1" />
+            </p>
+          </div>
+        </div>
+        <hr class="border border-1 border-dark" />
+        <div class="row fw-bold">
+          <div class="col">
+            11. If you have studied in IGCSE/CBSE/ICSE, give the details:
+          </div>
+          <div class="col">
+            <p>
+              IGCSE/CBSE/ICSE /other
+              <input type="text" class="my-1" /><br />Register No.
+              <input type="text" class="my-1" />
+            </p>
+          </div>
+        </div>
+        <hr class="border border-1 border-dark" />
+        <div class="row fw-bold">
+          <div class="col">
+            12. whether physically challenged/Blind/Mentally chanllenged
+            <br />Whether Language Exemption is taken in 10th Std./SSLC/
+            Equivalent Examination. Yes/No. <input type="text" class="my-1" />
+          </div>
+          <div class="col">
+            <p>
+              Documents Enclosed Yes/NO
+              <input type="text" class="my-1" /><br />If Yes, Subjects:
+              <input type="text" class="my-1" />
+              <input type="text" class="my-1" /> <br />
+              Mention the language claimed for Exemption
+              <input type="text" class="my-1" />
+            </p>
+          </div>
+        </div>
+        <hr class="border border-1 border-dark" />
+        <div class="row fw-bold">
+          <div class="col">
+            <p>
+              13. Subjects <br />1. 1st Language
+              <input type="text" class="my-1" /><br />2. 2nd Language
+              <input type="text" class="my-1" /><br />3. 3rd Language
+              <input type="text" class="my-1" /><br />4. Science
+              <input type="text" class="my-1" /><br />5. Mathematics
+              <input type="text" class="my-1" /><br />6. Social Science
+              <input type="text" class="my-1" /><br /><br />
+              Total Marks obtained <input type="text" class="my-1" />
+            </p>
+          </div>
+          <div class="col">
+            <p>
+              Medium <input type="text" class="my-1" /><br />Result
+              <input type="text" class="my-1" /><br />Percentage of Marks
+              <input type="text" class="my-1" />
+            </p>
+          </div>
+        </div>
+        <hr class="border border-1 border-dark" />
+        <div class="row fw-bold">
+          <p class="col">
+            14. Participation in Sports/ Extra Curricular activities:
+          </p>
+          <p class="col">
+            If Participated in Taluk/Dist./State level submit the copy of the
+            Documents.
+          </p>
+        </div>
+        <hr class="border border-1 border-dark" />
+        <div class="row fw-bold">
+          <div class="col">
+            15. Subjects Languages and Combination in the PU Course
+          </div>
+          <div class="col">
+            1/Part-1 <br />1. <input type="text" /><br />2.
+            <input type="text" />
+          </div>
+          <div class="col">
+            2/Part-2 (Optional) <br />1. <input type="text" /><br />2.
+            <input type="text" /><br />3. <input type="text" /><br />4.
+            <input type="text" />
+          </div>
+        </div>
+        <hr class="border border-1 border-dark" />
+        <div class="row fw-bold">
+          <div class="col">
+            16. Medium of Instruction in PU Course. &nbsp; <input type="text" />
+          </div>
+        </div>
+        <hr class="border border-1 border-dark" />
+        <div class="row fw-bold">
+          <h4 class="fw-bold text-decoration-underline text-center">
+            Student’s and Parent’s/Gaurdian’s undertaking:
+          </h4>
+          <p>
+            1. I here by accept that I will abide by the Administrative/Academic
+            /Examination rules of the Department during my study in the College
+          </p>
+          <p>
+            2. I here by accept that during my stay in College, I will maintain
+            discipline, and pay the damages caused by me.
+          </p>
+          <p>
+            3. I hereby accept that, I will ascertain the Academic/ Attendance
+            progress of the Student from time to time from the College and also
+            pay the damages if any caused by the Student.
+          </p>
+          <p class="col">
+            Place: <input type="text" style="margin-bottom: 10px" /> <br />
+            Date: <input type="text" />
+          </p>
+          <p class="col">
+            <input type="text" style="margin-bottom: 10px" /><br />Signature of
+            the Student
+          </p>
+          <p class="col">
+            <input type="text" style="margin-bottom: 10px" /><br />Signature of
+            the Mother/Father/Gaurdian,
+          </p>
+        </div>
+        <hr class="border border-1 border-dark" />
+        <div class="row">
+          <h4 class="text-decoration-underline text-center">Instructions</h4>
+          <p>
+            1. Admission to PUC is provisional & is subjected to Department
+            approval.
+          </p>
+          <p>
+            2. Attested Xerox copies of SSLC/Equivalent exam Marks card/Transfer
+            Certificate/ <strong> SSLC Hall ticket Xerox copy </strong> /Caste &
+            Income Certificate/Eligibility Certificate Issued by PU Department
+            (If any) Medical Certificate (if any) and any other Certificates
+            must be submitted along with the Application. All Original
+            Certificates must be produced at the time of admission for
+            verification.
+          </p>
+        </div>
+        <hr class="border border-1 border-dark" />
+        <div class="row fw-bold">
+          - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+          - - - - - - - - - - - - - - - - - - - - tear here - - - - - - - - - -
+          - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+          - - - - - - - - - - - - - -
+          <p>
+            Mr/Mrs <input type="text" /> has applied for
+            <input type="text" /> puc and submitted the form.
+          </p>
+          <p>Place:</p>
+          <p class="col">Date:</p>
+          <p class="col">Received from <input type="text" /></p>
+        </div>
+        <hr class="border border-1 border-dark" />
+        <div class="row">
+          <div class="col text-center my-1">
+            <input type="button" value="Submit form " class="btn btn-primary btn-lg fw-bold"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

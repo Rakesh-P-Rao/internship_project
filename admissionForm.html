@@ -15,10 +15,13 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>Admission form</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fs-4  ">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fs-4">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Venkatadri PU College Chintamani</a>
         <button
@@ -70,7 +73,9 @@
                   <a class="dropdown-item" href="/gallery.html">Gallery</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="/achievements.html">Achievements</a>
+                  <a class="dropdown-item" href="/achievements.html"
+                    >Achievements</a
+                  >
                 </li>
               </ul>
             </li>
@@ -85,76 +90,68 @@
         class="container border border-2 border-dark"
         style="margin-bottom: 30px"
       >
-        <div class="row">
-          <div class="col-9">
-            <h6 class="my-2">For Office use only</h6>
-            <div class="row row-cols-2">
-              <div class="col"><p class="fw-bold">1. Admission No</p></div>
-              <div class="col"><input type="text" /></div>
-              <div class="col"><p class="fw-bold">2. SATS NO.:</p></div>
-              <div class="col"><input type="text" /></div>
-              <div class="col">
-                <p class="fw-bold">3. Languages –cum- combination:</p>
-              </div>
-              <div class="col"><input type="text" /></div>
-              <div class="col"><p class="fw-bold">4. Medium:</p></div>
-              <div class="col"><input type="text" /></div>
-              <div class="col"><p class="fw-bold">5. Section:</p></div>
-              <div class="col"><input type="text" /></div>
-              <div class="col">
-                <p class="fw-bold">6. Reservation category:</p>
-              </div>
-              <div class="col"><input type="text" /></div>
-            </div>
+        <h6 class="my-2">For Office use only</h6>
+        <div class="row fw-bold row-cols-2">
+          <div class="col">
+            <p>
+              1. Admission No: <input type="text" class="my-1" /><br />
+              2. SATS NO.: <input type="text" class="my-1" /><br />
+              3. Languages –cum- combination:
+              <input type="text" class="my-1" /><br />
+              4. Medium: <input type="text" class="my-1" /><br />
+              5. Section: <input type="text" class="my-1" /><br />
+              6. Reservation category: <input type="text" class="my-1" /><br />
+            </p>
           </div>
-          <div class="col-3">
+          <div class="col">
             <img
               src=""
               alt="Affix recent pass port size photograph"
-              class="border border-dark text-center"
-              style="max-height: 250px; padding-bottom: 250px; margin-top: 30px"
+              class="border border-dark text-center my-1"
+              style="max-height: 250px; width: 100%"
             />
           </div>
         </div>
         <hr class="border border-1 border-dark" />
         <div class="row" style="margin-bottom: 30px">
-          <div class="col-7 fw-bold">
+          <div class="col fw-bold">
             <p>
               1. Name of the Student in English as entered in SSLC marks card
               (CAPITAL LETTERS ONLY)
             </p>
           </div>
-          <div class="col-5">
-            <input type="text" style="padding-right: 200px" />
+          <div class="col">
+            <input type="text" style="padding-right: 150px" class="my-1" />
           </div>
         </div>
         <hr class="border border-1 border-dark" />
         <div class="row fw-bold" style="margin-bottom: 30px">
           <div class="col"><p>2. &nbsp; a) DATE OF BIRTH</p></div>
-          <div class="col">DAY: <input type="text" /></div>
-          <div class="col">MONTH: <input type="text" /></div>
-          <div class="col">YEAR: <input type="text" /></div>
+          <div class="col">DAY: <input type="text" class="my-1" /></div>
+          <div class="col">MONTH: <input type="text" class="my-1" /></div>
+          <div class="col">YEAR: <input type="text" class="my-1" /></div>
         </div>
         <div class="row fw-bold" style="margin-bottom: 30px">
           <div class="col">
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Gender: <input type="text" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Gender:
+            <input type="text" class="my-1" />
           </div>
         </div>
         <div class="row fw-bold">
           <div class="col">
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Place of birth
           </div>
-          <div class="col">State: <input type="text" /></div>
-          <div class="col">District: <input type="text" /></div>
-          <div class="col">Taluk: <input type="text" /></div>
+          <div class="col">State: <input type="text" class="my-1" /></div>
+          <div class="col">District: <input type="text" class="my-1" /></div>
+          <div class="col">Taluk: <input type="text" class="my-1" /></div>
         </div>
         <hr class="border border-1 border-dark" />
         <div class="row fw-bold">
           <div class="row fw-bold my-2">
             <div class="col"><p>3. &nbsp; a) Nationality</p></div>
-            <div class="col">Religion: <input type="text" /></div>
-            <div class="col">Caste: <input type="text" /></div>
-            <div class="col">Subcaste: <input type="text" /></div>
+            <div class="col">Religion: <input type="text" class="my-1" /></div>
+            <div class="col">Caste: <input type="text" class="my-1" /></div>
+            <div class="col">Subcaste: <input type="text" class="my-1" /></div>
           </div>
         </div>
         <hr class="border border-1 border-dark" />
@@ -166,14 +163,16 @@
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Permanent Address: &nbsp;
             <input
               type="text"
-              style="padding-right: 200px; padding-bottom: 100px"
+              style="padding-right: 150px; padding-bottom: 100px"
+              class="my-1"
             />
           </div>
           <div class="col">
             Local Address: &nbsp;
             <input
               type="text"
-              style="padding-right: 200px; padding-bottom: 100px"
+              style="padding-right: 150px; padding-bottom: 100px"
+              class="my-1"
             />
           </div>
         </div>
@@ -207,7 +206,8 @@
               7. &nbsp; Name/Address of the Parents/Guardian:
               <input
                 type="text"
-                style="padding-right: 200px; padding-bottom: 50px"
+                style="padding-right: 150px; padding-bottom: 50px"
+                class="my-1"
               />
             </p>
           </div>
@@ -217,8 +217,9 @@
           <div class="col">
             <p>
               8. &nbsp; Parent’s /Guardian Annual Income:
-              <input type="text" /> Is Income Certificate enclosed? Yes/ No
-              <input type="text" />
+              <input type="text" class="my-1" /> Is Income Certificate enclosed?
+              Yes/ No
+              <input type="text" class="my-1" />
             </p>
           </div>
         </div>
@@ -227,7 +228,7 @@
           <div class="col">
             <p>
               9. &nbsp; Name and address of the School /College last studied:
-              <input type="text" />
+              <input type="text" class="my-1" />
             </p>
           </div>
         </div>
@@ -386,8 +387,8 @@
           - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
           - - - - - - - - - - - - - -
           <p>
-            Mr/Mrs <input type="text" /> has applied for
-            <input type="text" /> puc and submitted the form.
+            Mr/Mrs <input type="text" class="my-1" /> has applied for
+            <input type="text" class="my-1" /> puc and submitted the form.
           </p>
           <p>Place:</p>
           <p class="col">Date:</p>
@@ -396,7 +397,11 @@
         <hr class="border border-1 border-dark" />
         <div class="row">
           <div class="col text-center my-1">
-            <input type="button" value="Submit form " class="btn btn-primary btn-lg fw-bold"/>
+            <input
+              type="button"
+              value="Submit form "
+              class="btn btn-primary btn-lg fw-bold"
+            />
           </div>
         </div>
       </div>
